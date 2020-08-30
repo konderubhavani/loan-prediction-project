@@ -38,7 +38,7 @@ Education_label={'Graduate':1,'Not Graduate':0}
 Self_Employed_label={'Yes':1,'No':0}
 Property_Area_label={'Urban':2,'Rural':0,'Semiurban':1}
 
-#get the keys
+#get the values
 def get_value(val,my_dict):
     for key,value in my_dict.items():
         if val==key:
